@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-05T11:20:35.232Z",
+  "items": [
+    {
+      "id": "linkedin-2026-08-22-zabbix-nowlert-discord",
+      "date": "2026-08-22",
+      "product": "nowlert",
+      "title": "Zabbix → Nowlert CE → Discord",
+      "summary": "Nowlert isn’t limited to SMTP. Infrastructure and monitoring platforms that can send HTTP events can use the same notification pipeline.",
+      "link": {
+        "href": "https://www.linkedin.com/feed/update/urn:li:share:7496738377418035200"
+      }
+    },
+    {
+      "id": "linkedin-2026-08-22-idrac-redfish-nowlert",
+      "date": "2026-08-22",
+      "product": "nowlert",
+      "title": "Dell iDRAC / Redfish → Nowlert",
+      "summary": "Your servers already report hardware events. With Redfish Event Service, those events can become part of the same notification pipeline as the rest of your infrastructure.",
+      "link": {
+        "href": "https://www.linkedin.com/feed/update/urn:li:share:7496737884188622848"
+      }
+    },
+    {
+      "id": "linkedin-2026-08-22-homelab-smtp-alerts",
+      "date": "2026-08-22",
+      "product": "nowlert",
+      "title": "Centralise homelab SMTP alerts",
+      "summary": "A lot of infrastructure already knows how to send email. Hypervisors, storage systems, network appliances and other infrastructure can generate SMTP notifications without needing another monitoring agent.",
+      "link": {
+        "href": "https://www.linkedin.com/feed/update/urn:li:share:7496736362771968000"
+      }
+    },
+    {
+      "id": "linkedin-2026-08-22-xen-orchestra-nowlert-discord",
+      "date": "2026-08-22",
+      "product": "nowlert",
+      "title": "Xen Orchestra → Nowlert CE → Discord",
+      "summary": "Infrastructure systems generate useful information every day. The problem is often how that information reaches you.",
+      "link": {
+        "href": "https://www.linkedin.com/feed/update/urn:li:share:7496735920700887040"
+      }
+    },
+    {
+      "id": "linkedin-2026-08-21-infrastructure-reports",
+      "date": "2026-08-21",
+      "product": "nowlert",
+      "title": "Infrastructure reports. Nowlert delivers.",
+      "summary": "We built Nowlert from a practical infrastructure problem: useful alerts already existed, but they arrived in different formats, through different transports, and often took too long to understand.",
+      "link": {
+        "href": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7496652104393068544"
+      },
+      "image": {
+        "src": "/news-feed/images/linkedin-2026-08-21-infrastructure-reports-70e83f2c.webp",
+        "alt": "Cover of the post's video: Nowlert CE, Infrastructure reports. Nowlert delivers., Xen Orchestra to SMTP to Nowlert CE to Discord.",
+        "width": 1280,
+        "height": 720,
+        "video": true
+      }
+    }
+  ]
+}
