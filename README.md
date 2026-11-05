@@ -11,9 +11,9 @@ this repository is already public on LinkedIn.
 
 ## Who writes it
 
-The Publishing Specialist of the Theriark crew, in a scheduled run: it lists the posts Buffer reports as **published** on
-the company's LinkedIn channel (never a draft, a queued or an unpublished post) and adds the ones that are not in
-`news.json` yet. Nothing else writes here.
+A scheduled routine of the Theriark team: it lists the posts published on the company's LinkedIn channel (never a draft, a
+queued or an unpublished post) and adds the ones that are not in `news.json` yet. Nothing else writes here, and no
+credential, address or file other than the posts and their pictures belongs in this repository.
 
 ## An item
 
@@ -33,4 +33,4 @@ the company's LinkedIn channel (never a draft, a queued or an unpublished post) 
 - `link.href` is the post's public LinkedIn address (`https://www.linkedin.com/feed/update/urn:li:share:<n>` or `urn:li:ugcPost:<n>`), nothing else.
 - `product` is one of `theriark`, `nowlert`, `revrook`, `driftsniff`.
 - `image` is optional; `video: true` marks the cover of a video post (the card opens the post, where the video plays).
-- The sites show only what passes their own checks (`lib/news-feed.mjs` in `Theriark/theriark-web`); an item that fails is skipped, and a feed that fails entirely leaves each site showing the posts it was built with.
+- The sites show only what passes their own checks (a public LinkedIn address, a known product, bounded text and a local picture); an item that fails is skipped, and a feed that fails entirely leaves each site showing the posts it was built with.
